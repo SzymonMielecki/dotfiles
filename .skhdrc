@@ -1,74 +1,5 @@
-alt + ctrl - return : yabai -m window --swap recent
-alt + ctrl - space : yabai -m window --toggle zoom-fullscreen --focus
-alt + ctrl - r : yabai -m space --mirror y-axis
-
-alt + ctrl - q : yabai -m window --close
-
-alt + ctrl - c : yabai -m window --toggle float --grid 5:5:1:1:3:3
-alt + ctrl - f : yabai -m window --grid 5:4:1:1:2:3
-alt + ctrl - d : yabai -m window --grid 5:4:0:1:1:3
-alt + ctrl - g : yabai -m window --grid 5:4:4:1:1:3
-
-alt + ctrl - p : yabai -m window --toggle sticky --grid 3:3:2:2:1:1
-alt + ctrl - y : yabai -m window --grid 3:3:0:0:1:1
-alt + ctrl - u : yabai -m window --grid 3:3:2:0:1:1
-alt + ctrl - i : yabai -m window --grid 3:3:2:2:1:1
-alt + ctrl - o : yabai -m window --grid 3:3:0:2:1:1
-
-alt + ctrl - h : yabai -m window --resize right:-40:0 || yabai -m window --resize left:-40:0
-alt + ctrl - l : yabai -m window --resize right:40:0 || yabai -m window --resize left:40:0
-
-alt + ctrl + shift - l : yabai -m window --resize top:0:40 || yabai -m window --resize bottom:0:40
-alt + ctrl + shift - h : yabai -m window --resize bottom:0:-40 || yabai -m window --resize top:0:-40
-
-alt + ctrl - k : yabai -m window --focus next || yabai -m space --focus next || yabai -m space --focus first -m window --focus first
-alt + ctrl - j : yabai -m window --focus prev || yabai -m space --focus prev || yabai -m space --focus last -m window --focus last
-
-alt + ctrl - b : yabai -m space --balance
-
-alt + ctrl - s : yabai -m window --toggle split
-
-alt + ctrl - right : yabai -m space --focus next || yabai -m space --focus first
-alt + ctrl - left : yabai -m space --focus prev || yabai -m space --focus last
-
-alt + ctrl + shift - right : yabai -m window --space next --focus || yabai -m window --space first --focus
-alt + ctrl + shift - k: yabai -m window --space next --focus || yabai -m window --space first --focus
-alt + ctrl + shift - left : yabai -m window --space prev --focus || yabai -m window --space last --focus
-alt + ctrl + shift - j: yabai -m window --space prev --focus || yabai -m window --space last --focus
-
-alt + ctrl - m : yabai -m space --create
-alt + ctrl + shift - m : yabai -m space --create; yabai -m window --space last --focus
-
-alt + ctrl - n : yabai -m space --focus recent
-alt + ctrl + shift - n : yabai -m window --space recent; yabai -m space --focus recent
-
-alt + ctrl - x : yabai -m space --destroy
-
-alt + ctrl - down: yabai -m display --focus next
-alt + ctrl - up: yabai -m display --focus prev
-
-alt + ctrl + shift - down: yabai -m window --display next --focus
-alt + ctrl + shift - k : yabai -m window --display prev --focus
-alt + ctrl + shift - up: yabai -m window --display prev --focus
-alt + ctrl + shift - j : yabai -m window --display next --focus
-
-alt + ctrl - 1 : yabai -m space --focus 1 || yabai -m space --create; yabai -m space -focus 1
-alt + ctrl - 2 : yabai -m space --focus 2 || yabai -m space --create; yabai -m space -focus 2
-alt + ctrl - 3 : yabai -m space --focus 3 || yabai -m space --create; yabai -m space -focus 3
-alt + ctrl - 4 : yabai -m space --focus 4 || yabai -m space --create; yabai -m space -focus 4
-alt + ctrl - 5 : yabai -m space --focus 5 || yabai -m space --create; yabai -m space -focus 5
-
-alt + ctrl + shift - 1 : yabai -m window --space 1 --focus
-alt + ctrl + shift - 2 : yabai -m window --space 2 --focus
-alt + ctrl + shift - 3 : yabai -m window --space 3 --focus
-alt + ctrl + shift - 4 : yabai -m window --space 4 --focus
-alt + ctrl + shift - 5 : yabai -m window --space 5 --focus
-
-alt + ctrl + shift - 0 : yabai -m window --opacity 1.0
-alt + ctrl - 0 : yabai -m window --opacity 0.0
-
-rcmd - w : open -a WezTerm
-rcmd - return : open -a WezTerm
+rcmd - w : open -a Warp
+rcmd - return : open -a Warp
 rcmd - a : open -a Arc
 rcmd - m : open -a Messages
 rcmd - s : open -a Spotify
@@ -77,4 +8,8 @@ rcmd - d : open -a Discord
 rcmd - f : open -a Finder
 rcmd - o : open -a Obsidian
 rcmd - r : open -a reMarkable
-rcmd - v : code
+rcmd - v : open -a Cursor
+rcmd - z : open -a Zed
+rcmd - i : open -a iPhone\ Mirroring
+rcmd - 0x2B : open -a System\ Preferences
+rcmd - c : open -a Fantastical
