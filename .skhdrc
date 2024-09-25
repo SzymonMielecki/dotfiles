@@ -1,15 +1,18 @@
-rcmd - w : open -a Warp
-rcmd - return : open -a Warp
-rcmd - a : open -a Arc
-rcmd - m : open -a Messages
-rcmd - s : open -a Spotify
-rcmd - t : open -a Telegram
-rcmd - d : open -a Discord
-rcmd - f : open -a Finder
-rcmd - o : open -a Obsidian
-rcmd - r : open -a reMarkable
-rcmd - v : open -a Cursor
-rcmd - z : open -a Zed
-rcmd - i : open -a iPhone\ Mirroring
-rcmd - 0x2B : open -a System\ Preferences
-rcmd - c : open -a Fantastical
+rcmd - w: open -a Warp
+rcmd - return: open -a Warp
+rcmd - a: osascript ~/.switch_safari_profile.applescript
+cmd + ctrl - a [
+"safari": osascript ~/.move_to_safari_profile.applescript
+]
+rcmd - m: open -a Messages
+rcmd - n: open -a Mail
+rcmd - s: open -a Spotify
+rcmd - t: open -a Telegram
+rcmd - d: open -a Discord
+rcmd - f: open -a Finder
+rcmd - r: open -a reMarkable
+rcmd - v: open -a Cursor
+rcmd - z: open -a Zed
+rcmd - i: open -a iPhone\ Mirroring
+rcmd - 0x2B: open -a System\ Preferences
+rcmd - c: open -a Fantastical
